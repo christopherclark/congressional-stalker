@@ -69,11 +69,6 @@ angular.module('Directives', [])
 
     return{
       getAPIVotes: getAPIVotes,
-<<<<<<< 6b3ef41b7aa9838f00ac2ba2adbb13f733677e5d
-      house: house,
-=======
-      //api_key: api_key,
->>>>>>> git hell.
       getMemberAndVotes: getMemberAndVotes,
       updateSearchCache: updateSearchCache,
     }

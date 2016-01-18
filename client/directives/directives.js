@@ -1,7 +1,5 @@
 angular.module('Directives', [])
   .factory('searchFactory', function( $rootScope, $state, SendRequest, DataCache, ErrorDisplay){
-    var congressNumber = '113';
-    var house = 'house';
 
     var getAPIVotes= function(id) {
       $rootScope.loading = true;
@@ -70,9 +68,12 @@ angular.module('Directives', [])
       };
 
     return{
-      congressNumber: congressNumber,
       getAPIVotes: getAPIVotes,
+<<<<<<< 6b3ef41b7aa9838f00ac2ba2adbb13f733677e5d
       house: house,
+=======
+      //api_key: api_key,
+>>>>>>> git hell.
       getMemberAndVotes: getMemberAndVotes,
       updateSearchCache: updateSearchCache,
     }

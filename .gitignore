@@ -8,7 +8,7 @@ iisnode.yml
 Icon
 
 # Secrets
-#_config.js
+_config.js
 
 # Thumbnails
 ._*
